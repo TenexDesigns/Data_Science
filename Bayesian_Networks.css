@@ -1,0 +1,51 @@
+AGENDA
+
+What is a byesian Network
+What is a directed acyclic graph
+Undestannding bayesian networks with an exapmple
+Implememnting bayersian network using python
+Bayesian nework application
+
+
+WHAT IS A BAYESIAN NETWORK
+
+Bayesian network a Bayesian network basically falls under the category of probabilistic graphical modeling (PGM)
+also known as PGM technique that is used to compute uncertainties by using the concept of probability
+
+A baseyian network is based on the concept of probabilty and they are represented using a Directed Acyclic Graph
+ They are also called as belief or casula networks as they are used to model uncertainicties or unknown values by using DIRECTED ACYCLIC GRAPHS
+
+
+
+WHAT IS A DIRECT ACYCLIC GRAPH
+a directed acyclic graph is used to represent a Bayesian network
+and like any other statistical graph it contains a set of nodes and links where
+the links denote the relationship between the different nodes so take a
+
+
+ 1         2   -----Nodes
+ |         |
+ v         v
+ |_________|
+     |
+     V
+     3
+     | <-------- Links 
+     |
+     V
+     4
+     
+     
+look at this diagram here you see a couple of nodes 1 2 3 4 .
+The arrows directing from each of these nodes represent the
+relationship between these nodes.
+if you look at the figure you can see that number 3 is dependent on both number1 and no number 2 .
+all right because youcan see links or you can see arrows directed towards no number 3 meaning
+that no number 3 is dependent on 1 and 2 or you can also say that 1 in 2 are the
+parent nodes of no number 3.
+similarly number 4 is dependent on node number 3 which makes no number 4
+the child of node number 3 and it's a
+simple relationship that we all can
+understand by just looking at the figure
+
+
